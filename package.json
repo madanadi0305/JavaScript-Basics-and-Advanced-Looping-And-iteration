@@ -24,7 +24,7 @@
     "task18": "node ./task18.js",
     "task19": "node ./task19.js",
     "task20": "node ./task20.js",
-    "test": "node_modules/.bin/mocha ./*.spec.js",
+    "test": "node_modules/.bin/mocha ./specs/*.spec.js",
     "test01": "mocha './specs/task01.spec.js'",
     "test02": "mocha './specs/task02.spec.js'",
     "test03": "mocha './specs/task03.spec.js'",
