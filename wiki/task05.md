@@ -1,7 +1,7 @@
 # Looping & Iterations Exercise 05
 ## Task05
 Write a js program to create a function which calculates the sum of multiples of 3 or 5 before a given number.
-Your output code should return the output variable.
+Your output code should return the output variable. Sample input (20)  Output 78
 
 Hints:
 
