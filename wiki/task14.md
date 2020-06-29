@@ -1,7 +1,7 @@
 # Looping & Iterations Exercise 14
 
 Write a JavaScript program to create a function which returns the number of times required to replace a given number with the sum of its digits until it converts to a single digit number. Like if given number is 123, number of times required to convert it into a single digit number is 1 (1+2+3=6). Your output code should return the output variable.
-
+ Sample input (179)  Output 2, Sample input (9971737089) Output 2
 Hints:
 
 - Declare functions with name and parameter
