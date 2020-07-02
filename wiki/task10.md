@@ -5,6 +5,7 @@ Write a javascript program to create a function which takes an argument n and ca
 Sample input (75)  Output 4.90 
 
 **Note**: Return your result with a precision of two decimical places
+
 Hints:
 
 - Declare functions with name and parameter
