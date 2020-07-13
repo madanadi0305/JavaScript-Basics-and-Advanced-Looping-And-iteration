@@ -33,6 +33,8 @@ Test01:
       - 1-task01-program-to-write-a-js-function
 
 Practice01:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice01.js
@@ -55,6 +57,8 @@ Test02:
       - 2-task02-program-to-write-a-js-function-for-multiples
 
 Practice02:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice02.js
@@ -77,6 +81,8 @@ Test03:
       - 3-task03-program-to-write-js-function-to-compute-sum-of-cubes-of-all-integers
       
 Practice03:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
       - node practice03.js
@@ -99,6 +105,8 @@ Test04:
       - 4-task04-program-to-find-the-maximum-integer
 
 Practice04:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice04.js
@@ -121,6 +129,8 @@ Test05:
       - 5-task05-program-to-calculates-the-sum-of-multiples-of-3-or-5-before-a-given-number
 
 Practice05:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice05.js
@@ -143,6 +153,8 @@ Test06:
       - 6-task06-write-a-js-program-to-create-a-function-which-returns-the-smallest-round-number
 
 Practice06:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice06.js
@@ -165,6 +177,8 @@ Test07:
       - 7-task07-write-a-program-to-create-a-function-for-factorial
 
 Practice07:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice07.js
@@ -187,6 +201,8 @@ Test08:
       - 8-task08-write-a-program-in-js-to-perform-recursive-division
 
 Practice08:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice08.js
@@ -209,6 +225,8 @@ Test09:
       - 9-task09-program-in-js-to-create-function-which-returns-the-sum-of-even-digits-in-a-given-integer
 
 Practice09:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice09.js
@@ -231,6 +249,8 @@ Test10:
       - 10-task10-program-to-create-a-function-for-sum-of-series
 
 Practice10:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice10.js
@@ -253,6 +273,8 @@ Test11:
       - 11-task11-program-to-create-a-function-which-calculates-the-total-number-of-prime-numbers
 
 Practice11:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice11.js
@@ -275,6 +297,8 @@ Test12:
       - 12-task12-program-to-create-a-function-for-armstrong-number
 
 Practice12:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice12.js
@@ -297,6 +321,8 @@ Test13:
       - 13-task13-program-to-create-a-function-which-returns-the-smallest-prime-number
 
 Practice13:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice13.js
@@ -319,6 +345,8 @@ Test14:
       - 14-task14-program-to-create-a-function-which-returns-the-number-of-times-required
 
 Practice14:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice14.js
@@ -341,6 +369,8 @@ Test15:
       - 15-task15-program-that-contains-function-pow-x-n-which-takes-two-arguments
 
 Practice15:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice15.js
@@ -363,6 +393,8 @@ Test16:
       - 16-task16-program-to-return-n-th-entry-of-fibonacci-series
 
 Practice16:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice16.js
@@ -385,6 +417,8 @@ Test17:
       - 17-task17-program-to-create-function-that-returns-factorial-of-given-number
 
 Practice17:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice17.js
@@ -407,6 +441,8 @@ Test18:
       - 18-task18-program-to-create-function-returns-gdc-of-two-numbers
 
 Practice18:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice18.js
@@ -429,6 +465,8 @@ Test19:
       - 19-task19-program-to-create-function-that-returns-sum-of-series
 
 Practice19:
+  tags:
+    - looping
   timeout: 3 minutes 30 seconds
   script:
     - node practice19.js
