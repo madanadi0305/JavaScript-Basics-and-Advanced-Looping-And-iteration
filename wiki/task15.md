@@ -6,6 +6,6 @@ Hints:
 
 - Create a function with name and parameters
 - Declare local variables and assign values
-- Use recursion to caculate the power of the number
+- Use Math.pow() method to caculate the power of the number
 - Return the result and call the function with arguments
 - Assign result in output variable and Return the output variable
