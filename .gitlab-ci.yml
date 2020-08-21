@@ -1,8 +1,8 @@
 image: node:latest
 
 cache:
-   paths:
-       - node_modules/
+  paths:
+    - node_modules/
 
 Test:
   tags:
@@ -34,7 +34,7 @@ Test01:
 
 Practice01:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice01.js
@@ -58,7 +58,7 @@ Test02:
 
 Practice02:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice02.js
@@ -79,13 +79,13 @@ Test03:
   only:
     refs:
       - 3-task03-program-to-write-js-function-to-compute-sum-of-cubes-of-all-integers
-      
+
 Practice03:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
-      - node practice03.js
+    - node practice03.js
   only:
     refs:
       - 3-task03-program-to-write-js-function-to-compute-sum-of-cubes-of-all-integers
@@ -106,7 +106,7 @@ Test04:
 
 Practice04:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice04.js
@@ -130,14 +130,14 @@ Test05:
 
 Practice05:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice05.js
   only:
     refs:
       - 5-task05-program-to-calculates-the-sum-of-multiples-of-3-or-5-before-a-given-number
-      
+
 Test06:
   tags:
     - looping
@@ -154,14 +154,14 @@ Test06:
 
 Practice06:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice06.js
   only:
     refs:
       - 6-task06-write-a-js-program-to-create-a-function-which-returns-the-smallest-round-number
-      
+
 Test07:
   tags:
     - looping
@@ -178,14 +178,14 @@ Test07:
 
 Practice07:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice07.js
   only:
     refs:
       - 7-task07-write-a-program-to-create-a-function-for-factorial
-      
+
 Test08:
   tags:
     - looping
@@ -202,14 +202,14 @@ Test08:
 
 Practice08:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice08.js
   only:
     refs:
       - 8-task08-write-a-program-in-js-to-perform-recursive-division
-      
+
 Test09:
   tags:
     - looping
@@ -226,14 +226,14 @@ Test09:
 
 Practice09:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice09.js
   only:
     refs:
       - 9-task09-program-in-js-to-create-function-which-returns-the-sum-of-even-digits-in-a-given-integer
-      
+
 Test10:
   tags:
     - looping
@@ -250,14 +250,14 @@ Test10:
 
 Practice10:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice10.js
   only:
     refs:
       - 10-task10-program-to-create-a-function-for-sum-of-series
-      
+
 Test11:
   tags:
     - looping
@@ -274,14 +274,14 @@ Test11:
 
 Practice11:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice11.js
   only:
     refs:
       - 11-task11-program-to-create-a-function-which-calculates-the-total-number-of-prime-numbers
-      
+
 Test12:
   tags:
     - looping
@@ -298,14 +298,14 @@ Test12:
 
 Practice12:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice12.js
   only:
     refs:
       - 12-task12-program-to-create-a-function-for-armstrong-number
-      
+
 Test13:
   tags:
     - looping
@@ -322,14 +322,14 @@ Test13:
 
 Practice13:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice13.js
   only:
     refs:
       - 13-task13-program-to-create-a-function-which-returns-the-smallest-prime-number
-      
+
 Test14:
   tags:
     - looping
@@ -346,7 +346,7 @@ Test14:
 
 Practice14:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice14.js
@@ -370,14 +370,14 @@ Test15:
 
 Practice15:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice15.js
   only:
     refs:
       - 15-task15-program-that-contains-function-pow-x-n-which-takes-two-arguments
-      
+
 Test16:
   tags:
     - looping
@@ -394,14 +394,14 @@ Test16:
 
 Practice16:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice16.js
   only:
     refs:
       - 16-task16-program-to-return-n-th-entry-of-fibonacci-series
-      
+
 Test17:
   tags:
     - looping
@@ -418,14 +418,14 @@ Test17:
 
 Practice17:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice17.js
   only:
     refs:
       - 17-task17-program-to-create-function-that-returns-factorial-of-given-number
-      
+
 Test18:
   tags:
     - looping
@@ -442,14 +442,14 @@ Test18:
 
 Practice18:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice18.js
   only:
     refs:
       - 18-task18-program-to-create-function-returns-gdc-of-two-numbers
-      
+
 Test19:
   tags:
     - looping
@@ -466,7 +466,7 @@ Test19:
 
 Practice19:
   tags:
-    - looping
+    - practice
   timeout: 3 minutes 30 seconds
   script:
     - node practice19.js
