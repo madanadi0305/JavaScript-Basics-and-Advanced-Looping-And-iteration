@@ -10,10 +10,10 @@ while(i<=number){
      k=i;
      break;
     }
-    else{
+    
     i=i+1;
-    continue;
-    }
+    //continue;
+    
 }
 max=k;
 return max;
