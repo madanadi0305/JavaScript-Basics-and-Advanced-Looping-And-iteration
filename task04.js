@@ -10,7 +10,7 @@ while(i<=number){
    if(result===number){
        k=i;
    }
-   else if((number<result)&&(number>=previous_sum)){
+   else if((number<result) && (number>=previous_sum)){
        k=previous;
    }
     i=i+1;
