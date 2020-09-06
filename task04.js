@@ -15,7 +15,6 @@ while(i<=number){
    }
     i=i+1;
 }
-
 return k;
 }
 module.exports=findMax;
