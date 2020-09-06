@@ -1,7 +1,8 @@
 # Fundamentals Exercise 04
 ## Task04
 Write a JavaScript program to find the maximum integer n such that (1 + 2 + ... + n <= given integer ) is true.
-If a given integer is 10, value of maximum integer n is 4 so that 1+2+3+4 <= 10 is true. Your output code should return the output variable. Sample input (25)  Output 6
+If a given integer is 10, value of maximum integer n is 4 so that 1+2+3+4 <= 10 is true. 
+Your output code should return the output variable. Sample input (25)  Output 6
 
 Hints:
 
