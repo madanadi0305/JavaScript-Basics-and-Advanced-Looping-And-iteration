@@ -1,10 +1,11 @@
 function multiple(number){
     // Enter your logic here
     var i=1;
-    var j=1;
+    
     var sum=0;
     var value=0;
     while(i<=number){
+        var j=1;
         while(j<=10){
             sum=sum+j*i;
             j=j+1;
