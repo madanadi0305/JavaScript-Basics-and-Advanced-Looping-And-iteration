@@ -4,6 +4,7 @@ function solveCube(number){
     var result=0;
   while(i<=number){
       result=i*i*i;
+      i=i+1;
   }
     return result;
 }
