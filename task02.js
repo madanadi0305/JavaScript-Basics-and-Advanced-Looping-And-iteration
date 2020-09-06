@@ -3,6 +3,7 @@ function multiple(number){
     var i=1;
     var j=1;
     var sum=0;
+    var value=0;
     while(i<=number){
         while(j<=10){
             sum=sum+j*i;
@@ -10,6 +11,7 @@ function multiple(number){
         }
         i=i+1;
     }
-    return sum;
+    value=sum;
+    return value;
 }
 module.exports = multiple;
