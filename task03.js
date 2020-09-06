@@ -3,7 +3,7 @@ function solveCube(number){
     var i=1;
     var result=0;
   while(i<=number){
-      result=i*i*i;
+      result=result+i*i*i;
       i=i+1;
   }
     return result;
