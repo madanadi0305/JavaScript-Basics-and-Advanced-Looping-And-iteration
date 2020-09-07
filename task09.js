@@ -6,11 +6,13 @@ function digitSum (number){
     while(n!=0){
        
      remainder=n%10;
-      n=n/10;
+      
      if(remainder%2==0)
      {sum1=sum1+remainder;
-     }   
+     }
+     n=parseInt(n/10);   
     }
+
     sum=parseInt(sum1);
     return sum;
 }
