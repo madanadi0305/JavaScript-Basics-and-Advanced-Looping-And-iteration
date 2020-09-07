@@ -7,6 +7,7 @@ function round(number){
      result=number+i;   
      if(result%10===0){
       output=result;
+      break;
      }
 
      i=i+1;
