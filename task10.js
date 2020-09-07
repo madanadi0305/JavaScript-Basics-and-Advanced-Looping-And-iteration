@@ -4,7 +4,7 @@ function sumSeries(number){
     for(var i=1;i<=number;i++){
         sum=sum+(1/i);
     }
-    return sum.toFixed(1);
+    return sum.toFixed(2);
 }
 
 module.exports = sumSeries;
