@@ -1,7 +1,8 @@
 # To-Do : Use ParseInt()
 
 
-We will reverse a number using javascript. We will also use parseInt() function which is used to extract the integer value from a number. 
+We will reverse a number using javascript. We will also use parseInt() function which is used 
+to extract the integer value from a number. 
 
 Note: Javascript does not differentiate between integers and decimal numbers
 
