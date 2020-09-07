@@ -1,6 +1,7 @@
 # Looping & Iterations Exercise 07
 
-Write a js program Factorial of a number is the result of multiplication of all the numbers between 1 and given number. For eg. Factorial of 5 is 5x4x3x2x1 =120. Your output code should return the output variable.
+Write a js program Factorial of a number is the result of multiplication of all the numbers between 1 and given number.
+ For eg. Factorial of 5 is 5x4x3x2x1 =120. Your output code should return the output variable.
 
 Hints:
 
