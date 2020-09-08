@@ -5,12 +5,12 @@ function prime(number){
         is_Prime=1;
         for(var j=2;j<i;j++){
             if(i%j===0){
-                is_Prime=false;
+                is_Prime=0;
                 break;
             }
 
         }
-    if(is_Prime===true){
+    if(is_Prime===1){
             
     count=count+1;
     }   
