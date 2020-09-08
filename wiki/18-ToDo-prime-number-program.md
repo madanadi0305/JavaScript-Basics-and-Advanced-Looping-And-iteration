@@ -8,7 +8,7 @@ You have to check whether a number is prime or not. A number is prime if it is d
 - Commit your changes.
 
 ```js
-unction prime(n){
+function prime(n){
     var i,j=0;
     for (i=2;i<n;i++){
         if(n%i===0){
