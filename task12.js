@@ -6,6 +6,7 @@ function armstong (number) {
     var remainder=0;
     var count=0;
     var n1=number;
+    var r=0;
     while(n1!==0){
     remainder=n1%10;
     count=count+1;
