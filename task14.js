@@ -1,7 +1,11 @@
 function times(number) {
     var n=number;
     var count=0;
+    var count_no_of_times;
     var remainder;
+    if(n===0){
+        count_no_of_times=0;
+    }
     function digitSum(n){
     var sum=0;
     
@@ -22,11 +26,12 @@ function times(number) {
  
         while(sum1>=10){
             count=count+1;
+            count_no_of_times=count;
             sum1=digitSum(sum1);
         }
         
     
-    return count;
+    return count_no_of_times;
    }
 
    module.exports=times
