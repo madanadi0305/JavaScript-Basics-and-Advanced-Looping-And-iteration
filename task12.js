@@ -12,8 +12,8 @@ while(n!=0){
    
 }
 while(n1!=0){
-  remainder=n%10;
-  sum=sum+Math.pow(r,count);
+  remainder=n1%10;
+  sum=sum+Math.pow(remainder,count);
   n1=parseInt(n1/10);
 
 }
