@@ -15,18 +15,18 @@ function times(number) {
      return sum;
     
     }
-    
+    sum1=digitSum(n);
+    count=count+1;
    
     
  
-        while(n>=10){
+        while(sum1>=10){
             count=count+1;
-            n=digitSum(n);
+            sum1=digitSum(sum1);
         }
         
     
     return count;
    }
-module.export=times
 
-
+   module.exports=times
