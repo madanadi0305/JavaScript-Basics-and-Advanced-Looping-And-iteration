@@ -1,4 +1,4 @@
-function prime(n){
+function prime(number){
     var is_Prime;
     var count=0;
     for(var i=2;i<=number;i++){
