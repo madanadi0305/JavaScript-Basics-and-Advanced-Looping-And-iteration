@@ -15,7 +15,7 @@ function armstong (number) {
     }
     while(n!==0){
      r=n%10;
-     sum=sum+r^count;
+     sum=sum+Math.pow(r,count);
      n=parseInt(n/10);
      
     }
