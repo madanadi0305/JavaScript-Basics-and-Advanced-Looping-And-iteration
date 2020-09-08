@@ -25,4 +25,6 @@ else{
 }
 return is_Armstrong;
 }
+a=armstrong(153);
+console.log(a);
 module.exports=armstrong;
