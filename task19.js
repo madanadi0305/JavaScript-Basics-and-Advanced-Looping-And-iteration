@@ -1,7 +1,8 @@
 function series(number){
     //  Enter your logic here
     //sum=0;
-    var number=n;
+    
+    var n=number;
 if(n==1){
 //sum=Math.pow(number,number);
 return 1;
