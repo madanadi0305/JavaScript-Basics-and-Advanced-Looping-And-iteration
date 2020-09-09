@@ -6,4 +6,4 @@ if(n<=1){
 return n*factorial(n-1);
 
 }
-module.export=factorial;
+module.exports=factorial;
