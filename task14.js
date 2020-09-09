@@ -17,7 +17,7 @@ function times(number){
     
     
     
-    /*if(n==0 ){
+   /* if(n==0 ){
         //count=0;
         return 0;
     }
@@ -26,15 +26,14 @@ function times(number){
     }
     
     else{*/
-    while(number>=10){
+    while(n>=10){
         count=count+1;
-        number=digitSum(number);
+        n=digitSum(n);
          }
     return count;
     //}
     
 }    
-
 module.export=times;
 
 
