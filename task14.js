@@ -16,22 +16,15 @@ function times(number){
     
     
     
+
     
-   /* if(n==0 ){
-        //count=0;
-        return 0;
-    }
-    else if(n<10 && n>0){
-        return 1;
-    }
     
-    else{*/
     while(n>=10){
         count=count+1;
         n=digitSum(n);
          }
     return count;
-    //}
+    
     
 }    
 module.export=times;
