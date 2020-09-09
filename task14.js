@@ -1,37 +1,41 @@
-function times(number) {
+function times(number){
     var n=number;
+    var r;
     var count=0;
-    var count_no_of_times;
-    var remainder;
-    if(n===0){
-        count=0;
-    }
+    //var sum=0;
     function digitSum(n){
-    var sum=0;
-    
-    while(n!=0){
-        remainder=n%10;
-        sum=sum+remainder;
-        n=parseInt(n/10);
-        
-        
-    }
-     return sum;
-    
-    }
-    sum1=digitSum(n);
-    count=count+1;
-   
-    
- 
-        while(sum1>=10){
-            count=count+1;
-           // count_no_of_times=count;
-            sum1=digitSum(sum1);
+        var sum=0;
+        while(n!==0){
+            r=n%10;
+            n=parseInt(n/10);
+            sum=sum+r;
         }
-        
+        return sum;
+    }
     
+    
+    
+    
+    
+    if(n==0 ){
+        //count=0;
+        return 0;
+    }
+    else if(n<10 && n>0){
+        return 1;
+    }
+    
+    else{
+    while(n>=10){
+        count=count+1;
+        n=digitSum(n);
+         }
     return count;
-   }
+    }
+    
+}    
 
-   module.exports=times
+module.export=times;
+
+
+
