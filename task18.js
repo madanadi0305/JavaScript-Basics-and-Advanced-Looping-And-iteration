@@ -1,7 +1,7 @@
 function gcd(num1, num2){
     //  ENter your logic here
-    var n1=number1;
-    var n2=number2;
+    var n1=num1;
+    var n2=num2;
     if(n1==0||n2==0)
     {return 0;
 
