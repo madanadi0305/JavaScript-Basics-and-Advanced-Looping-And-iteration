@@ -28,7 +28,7 @@ function times(number){
     
     
 }    
-times(123);
+
 module.export=times;
 
 
