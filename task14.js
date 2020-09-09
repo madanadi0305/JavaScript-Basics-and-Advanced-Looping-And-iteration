@@ -3,12 +3,12 @@ function times(number){
     var r;
     var n1=number;
     var count=0;
-    //var sum=0;
+    
     function digitSum(n){
         var sum=0;
         while(n!==0){
             r=n%10;
-            n=parseInt(n/10);
+            n=Math.floor(n/10);
             sum=sum+r;
         }
         return sum;
@@ -29,7 +29,7 @@ function times(number){
     
 }    
 
-module.export=times;
+module.exports=times;
 
 
 
