@@ -1,6 +1,10 @@
 # Looping & Iterations Exercise 17
 
-Write a JS program. This program contains a function which takes one argument: a positive number and returns factorial of that number. For an integer n greater than or equal to 1, the _factorial_ is the product of all integers less than or equal to n but greater than or equal to 1. Sample Input: number = 6 . Expected Output : 720.
+Write a JS program. This program contains a function which takes one argument: 
+
+a positive number and returns factorial of that number.
+ For an integer n greater than or equal to 1, the _factorial_ is the product of all integers less than or equal to n
+  but greater than or equal to 1. Sample Input: number = 6 . Expected Output : 720.
 
 Hints:
 
