@@ -26,9 +26,9 @@ function times(number){
     }
     
     else{*/
-    while(n>=10){
+    while(number>=10){
         count=count+1;
-        n=digitSum(n);
+        number=digitSum(number);
          }
     return count;
     //}
