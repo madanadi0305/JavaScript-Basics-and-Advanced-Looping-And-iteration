@@ -1,6 +1,7 @@
 function times(number){
     var n=number;
     var r;
+    var n1=number;
     var count=0;
     //var sum=0;
     function digitSum(n){
@@ -19,9 +20,9 @@ function times(number){
 
     
     
-    while(n>=10){
+    while(n1>=10){
         count=count+1;
-        n=digitSum(n);
+        n1=digitSum(n1);
          }
     return count;
     
