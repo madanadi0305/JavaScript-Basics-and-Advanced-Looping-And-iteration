@@ -1,6 +1,7 @@
 # Looping & Iterations Exercise 19
 
-Write a JS program. This program contains a function which takes one argument n and return the sum of the series 1^1 + 2^2 + 3^3 + ….. + n^n using recursion.
+Write a JS program. This program contains a function which takes one argument n 
+and return the sum of the series 1^1 + 2^2 + 3^3 + ….. + n^n using recursion.
 
 Hints:
 
