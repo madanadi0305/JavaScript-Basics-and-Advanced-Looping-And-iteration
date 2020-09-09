@@ -1,6 +1,9 @@
 # Looping & Iterations Exercise 15
 
-Write a JS program. This program contains a function pow(x,n) which takes two arguments: a base(natural number:x) and an exponent(natural number:n). This function raises x to a natural power of n and returns the result. Sample Input: base = 2, exponent = 3. Expected Output : 8.
+Write a JS program. This program contains a function pow(x,n) which takes two arguments:
+ a base(natural number:x) and an exponent(natural number:n). 
+ This function raises x to a natural power of n and returns the result. 
+ Sample Input: base = 2, exponent = 3. Expected Output : 8.
 
 Hints:
 
