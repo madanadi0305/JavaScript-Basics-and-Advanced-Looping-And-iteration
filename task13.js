@@ -2,11 +2,11 @@ function prime(number){
     //  Enter your logic here
 var n=number;
 var is_Prime;
-//if n is 0 or 1 or 2 then the next prime number is 2
-if(n===0||n===1||n===2){
+//if n is 0 or 1  then the next prime number is 2
+if(n===0||n===1){
     return 2;
 }
-for(var i=n;;i++){
+for(var i=n+1;;i++){
 is_Prime=true;
 for(var j=2;j<i;j++){
     if(i%j===0){
